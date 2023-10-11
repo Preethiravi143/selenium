@@ -1,6 +1,8 @@
+package preethi;
 
 public class Property {
 
+	static String preethi = "PreethiRavi";
 	private String name;
 	
 	public int length2; 

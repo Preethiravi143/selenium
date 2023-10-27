@@ -1,4 +1,4 @@
-package preethi;
+package workout;
 
 public class Property {
 
@@ -20,7 +20,7 @@ public class Property {
 		// TODO Auto-generated method stub
 		Property prop = new Property();
 		System.out.println(prop.name);
-		prop.setName("preethi");
+		prop.setName("workout");
 		System.out.println(prop.name);
 		Property prop1 = new Property();
 		System.out.println(prop1.name);

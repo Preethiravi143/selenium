@@ -1,4 +1,4 @@
-package preethi;
+package workout;
 
 public class VariablesAndDataTypes {
 

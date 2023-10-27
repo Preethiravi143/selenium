@@ -6,7 +6,7 @@ import org.checkerframework.checker.units.qual.A;
 
 public class Arrays {
 	public static void main(String[] args) {
-		String[] name = { "preethi", "ravi", "shanthi" };
+		String[] name = { "workout", "ravi", "shanthi" };
 
 		for (int i = 0; i < 2; i = i + 1) {
 			System.out.println(i + "=");

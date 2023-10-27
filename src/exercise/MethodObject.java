@@ -1,6 +1,6 @@
 package exercise;
 
-import preethi.
+import workout.Property;
 
 public class MethodObject {
 	
@@ -8,7 +8,7 @@ public class MethodObject {
 		 
 				
 		System.out.println(Math.pie);
-		System.out.println(Property.preethi);
+//		System.out.println(Property);
 		// TODO Auto-generated method stub
 		
 	}

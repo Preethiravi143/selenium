@@ -3,7 +3,9 @@ package exercise;
 public class Constructor {
 	int x;
 	public Constructor(int y) {
-		y=x;
+		//y = 5
+		y=x; // y=0
+		//y = 0
 		System.out.println("i am the costructor");
 	}
 

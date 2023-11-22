@@ -19,7 +19,11 @@ public class DynamicType1<T> {
 		value[position]= newValue;
 	}
 	
-	
+	public T get(int position) {
+		return value[position];
+		
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<String> dynamicTypeArrayList1 = new ArrayList<String>();
@@ -31,6 +35,7 @@ public class DynamicType1<T> {
 		
 		dynamicTypeArrayList.add(name);		
 		dynamicTypeArrayList.update(0,newValue1);
+		System.out.println(dynamicTypeArrayList.get(0));		
 //		
 		System.out.println(name[0]);
 		System.out.println(newValue1);

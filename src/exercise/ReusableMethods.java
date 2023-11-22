@@ -9,7 +9,7 @@ public class ReusableMethods {
 		int[] array2 = { 20, 7, 2, 4, 8, 9, 22 };
 
 		System.out.println(ravi.getData(array));
-		ravi.getData(array)
+		ravi.getData(array);
 		System.out.println(ravi.getData(array2));
 //				int result = ravi.getData(array2);
 //				System.out.println(result);

@@ -19,18 +19,20 @@ public class Arrays {
 //			System.out.println(mahi);
 //		}
 //
-//		int[] num = { 1, 4, 5, 8, 6, 12, 7, 16 };
+		int[] num = { 1, 4, 5, 8, 6, 12, 7, 16 };
 //		for (int mahi : num) {
 //			System.out.println("here" + mahi);
 //		}
 //
 //		
-//		for (int i = 0; i < num.length; i = i + 1) {
-//			if (num[i]%2==0) {	
-//				System.out.println(num[i]);
+		for (int i = 0; i < num.length; i = i + 1) {
+			if (num[i]%2==0) {	
+				System.out.println(num[i]);
 //			}
 //		}
 //		ArrayList<String> b=new ArrayList<String>();
 		
 	}
+}
+}
 }

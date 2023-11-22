@@ -13,7 +13,7 @@ public class YoutubeListSelectionAndSelectClass {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		int expectedResultPosition = -1;
+//		int expectedResultPosition = -1;
 
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
@@ -26,19 +26,14 @@ public class YoutubeListSelectionAndSelectClass {
 		Thread.sleep(2000);
 		List<WebElement> suggestionList = driver.findElements(By.xpath("//div[@class='sbse']/div[@class='sbqs_c']"));
 		Thread.sleep(3000);
-		System.out.println("suggestion size:" + suggestionList.size());
-//		System.out.println(suggestionList);
 		int sizeOfSuggestionList = suggestionList.size();
 		for (int i = 0; i < sizeOfSuggestionList; i++) {
-			System.out.println("i=" + suggestionList.get(i).getText());
-			if (expectedResult.equalsIgnoreCase(suggestionList.get(i).getText())) {
-				System.out.println("insideif");
-				expectedResultPosition = i+1;
-				suggestionList.get(i).click();
+//			if (expectedResult.equalsIgnoreCase(suggestionList.get(i).getText())) {
+			if (suggestionList.get(i).getText().equalsIgnoreCase(expectedResult)) {
+//				suggestionList.get(i).click();
 				break;
-				
-			}
-
+				}
+				suggestionList.get(i).click();
 		}
 
 //		Thread.sleep(3000);

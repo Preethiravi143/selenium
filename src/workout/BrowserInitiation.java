@@ -2,6 +2,7 @@ package workout;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
 
 public class BrowserInitiation {
 
@@ -9,6 +10,7 @@ public class BrowserInitiation {
 		 WebDriver webDriver = new ChromeDriver();
 		 webDriver.get("https://www.facebook.com/");
 		 String title = webDriver.getTitle();
+		FluentWait<WebDriver> wait = new FluentWait <WebDriver>(webDriver);
 //		 System.out.println(title.concat(title));
 //		 webDriver.close();
 //		 webDriver.quit();
